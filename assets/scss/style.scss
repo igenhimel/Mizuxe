@@ -1,4 +1,89 @@
-h2{
-    color: rgb(173, 42, 42);
-    background-color: black;
-} 
+
+
+
+.nav-link{
+    font-size: 23px;
+    color: rgb(22, 15, 15);
+}
+
+.navs{
+    box-shadow:2px 2px 5px #3292a6;
+    opacity: 0.9;
+}
+
+#home{
+    min-height: 600px;
+  .img-1{
+      background-image: url("../image/pexels-francesco-ungaro-2325447.jpg");
+      min-height: 600px;
+      background-position: 0;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+
+  }
+  .img-2{
+    background-image: url("../image/pexels-gru-975545.jpg");
+    min-height: 600px;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.img-3{
+    background-image: url("../image/pexels-vincent-gerbouin-1172518.jpg");
+    min-height: 600px;
+    background-position: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.btn-item-1{
+    border-radius:0px!important;
+}
+.carousel-overlay-1{
+    background:rgba($color:#177181, $alpha: 0.5);
+    min-height: 600px;
+}
+.carousel-overlay-2{
+    background:rgba($color:rgb(4, 51, 11), $alpha: 0.5);
+    min-height: 600px;
+}
+.carousel-overlay-3{
+    background:rgba($color:black, $alpha: 0.4);
+    min-height: 600px;
+}
+
+.home-inner{
+    padding-top: 88px;
+}
+   
+   
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.navbutton:focus{
+    box-shadow: none!important;
+    outline: 0!important;
+    border: 0px!important;
+}
+
+@media only screen and (max-width: 992px) {
+   .home-inner{
+       padding-top: 83px!important;
+   }
+  }
+
+  @media only screen and (max-width: 576px) {
+  
+      .display-1{
+          font-size: 60px!important;
+      }
+    }
+  
