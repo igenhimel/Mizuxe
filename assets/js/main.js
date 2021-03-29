@@ -1,4 +1,4 @@
 $('.navbutton').click(function () { 
-   $('#myNaV').fadeToggle('slow');
+   $('#myNav').fadeToggle('slow');
 });
 new WOW().init();
