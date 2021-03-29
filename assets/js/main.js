@@ -1,6 +1,7 @@
 $('.navbutton').click(function () { 
-   $('#myNav').fadeToggle('slow');
+   $('#myNaV').fadeToggle('slow');
 
   
-   new WOW().init();
+
 });
+new WOW().init();
