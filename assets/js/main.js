@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 $(document).ready(function () {
 
@@ -17,9 +15,5 @@ $(document).ready(function () {
    $("#myParent-4").parent().addClass("cards-background");
    
 });
-=======
-$('.navbutton').click(function () { 
-   $('#myNav').fadeToggle('slow');
-});
-new WOW().init();
->>>>>>> 0a6a9602866f7fb72de010121ccfe75343cb7334
+
+
