@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/image/mlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/animate.css"> 
+    <link rel="stylesheet" href="assets/css/bsnav.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+   
+
+
+    <title>Mizuxe</title>
+</head>
+<body>
+
+
+   <header class="header">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                   <h2 class="hau">Logo</h2>
+               </div>
+               <div class="col text-right">
+                   <button class="navbar-toggler navbuttons toggler-spin"><span class="navbar-toggler-icon"></span></button>
+               </div>
+           </div>
+       </div>
+   </header>
+
+   <div class="nav-overlay" id="myNav">
+       
+   <div class="nav"id="myNav2" >
+    <strong class="">Menu
+    
+          <span class="ml-5">&times;</span>
+        
+    </strong>
+   <div>
+    <ul class="navbar-nav">
+        <li class="nav-item py-3 text-light"><a href=""></a>Home</li>
+        <li class="nav-item py-3 text-light"><a href=""></a>About</li>
+        <li class="nav-item py-3 text-light"><a href=""></a>Live</li>
+        <li class="nav-item py-3 text-light"><a href=""></a>News</li>
+        <li class="nav-item py-3 text-light"><a href=""></a>Contact</li>
+       </ul>
+   </div>
+   </div>
+  
+   </div>
+
+   //start-------demo
+
+
+   body{
+       background:url("../image/pexels-francesco-ungaro-2325447.jpg");
+       background-position: center top;
+       background-size: cover;
+       background-repeat: no-repeat;
+    
+   }
+   
+   .header{
+       position: absolute;
+       width: 100%;
+      z-index: 99;
+   }
+    
+   .nav{
+       position: fixed;
+       left: 0;
+       top: 0;
+       background-color: #333;
+       height: 100%;
+       width: 260px;
+       transform: translateX(-100%);
+       transition: 0.4s;
+       z-index: 500;
+     
+   }
+   
+   .nav-overlay{
+       position: fixed;
+       left: 0;
+       top: 0;
+       background-color: rgba(17, 2, 2,0.5);
+       height: 100%;
+       width: 100%;
+       transform: translateX(-100%);
+       transition: 0.4s;
+   
+   }
+   
+   .adds{
+       transform: translateX(0%);
+   
+   }
+   
+   strong span{
+       margin-left: 150px;
+   }
+   
+   
+   
+   
+   .nav strong{
+       height: 50px;
+       color: white;
+       font-size: 16px;
+       text-align: left;
+       line-height: 50px;
+       padding: 0 15px;
+       display: block;
+       width: 100%;
+       border-bottom: 1px solid white;
+   }
+   
+   ul{
+       margin-bottom: 435px!important;
+       padding: 20px!important;
+   }
+   
+   
+   $('.navbuttons').click(function () { 
+    $('#myNav').toggleClass("adds")
+ 
+    $('#myNav2').toggleClass("adds")
+    $('').toggle('fast')
+ 
+ });
+ new WOW().init();
+   
+   
+   //finish--dem0
+   
+   
+
+     
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/bsnav.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>   
