@@ -171,6 +171,85 @@ $border:#3292a6;
         font-size: 25px;
         color: #3292a6;
     }
+    .author-item{
+        overflow: hidden;
+    }
+    .card-body h3{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        
+
+    }
+
+
+    .card-body h3::before{
+        position: absolute;
+        content: '';
+        width: 120%;
+        height: 100%;
+        transform: translateX(-100%);
+        background-color:yellow;
+        transition: 1s ease;
+        z-index: -1;
+        opacity: 0;
+        left: -50px;
+    
+      
+        
+       
+    }
+ 
+ 
+    .card:hover  .card-body h3::before{
+        
+        transform: translateX(0%);
+        opacity: 1;
+       
+        
+
+    }
+
+    .card-body h5{
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+        
+
+    }
+
+
+    .card-body h5::before{
+        position: absolute;
+        content: '';
+        width: 120%;
+        height: 100%;
+        transform: translateX(100%);
+        background-color:rgb(233, 62, 119);
+        transition: 1s ease;
+        z-index: -1;
+        opacity: 0;
+        right: -50px;
+       
+
+      
+        
+       
+    }
+
+
+    .card:hover h5{
+        color: white;
+    }
+ 
+    .card:hover  .card-body h5::before{
+        
+        transform: translateX(0%);
+        opacity: 1;
+       
+        
+
+    }
 
 }
 
@@ -217,6 +296,8 @@ $border:#3292a6;
 
 
 
+
+
 @media only screen and (max-width: 992px) {
    .home-inner{
        padding-top: 83px!important;
@@ -231,6 +312,17 @@ $border:#3292a6;
             margin-bottom: 0px!important;
         }
     }
+  #meet  {
+    .card-body h5::before{
+        right: -125px;
+    }
+    .card-body h3::before{
+        left: -100px;
+    }
+      
+  
+    }
+
   }
 
 
@@ -239,5 +331,6 @@ $border:#3292a6;
       .display-1{
           font-size: 60px!important;
       }
+
     }
   
