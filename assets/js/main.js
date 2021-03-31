@@ -31,12 +31,12 @@ $(document).ready(function () {
             items:2,
             autoplay:true,
          },
-         576:{
+         0:{
 
             items:1,
             autoplay:true,
          }
-
+         
       }
 
    });
