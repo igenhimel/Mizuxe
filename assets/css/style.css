@@ -9,6 +9,36 @@
   border: 1px solid #3292a6;
   color: white; }
 
+.accordion-header {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-size: 25px;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.3) -3px 3px 4px -3px, rgba(0, 0, 0, 0.3) 3px 2px 5px -3px;
+  cursor: pointer;
+  position: relative; }
+
+.accordion-body {
+  background-color: white;
+  padding: 20px; }
+
+.transition-on-accordion {
+  transition: 0.8s; }
+
+#about .accordion-header:not(.collapsed) {
+  background-color: lightslategray;
+  box-shadow: none;
+  color: white; }
+
+.accordion-header::before {
+  font-family: FontAwesome;
+  content: "\f118";
+  position: absolute;
+  right: 20px;
+  color: black; }
+
+.accordion-header.collapsed::before {
+  content: '\f119'; }
+
 .nav-link {
   font-size: 23px;
   color: #160f0f; }
@@ -84,6 +114,16 @@
 .registration {
   background-color: #212529; }
 
+#meet .card {
+  border-radius: 0px !important; }
+
+#meet img {
+  margin-top: -50px; }
+
+#meet i {
+  font-size: 25px;
+  color: #3292a6; }
+
 .form-controls-edit-1 span {
   position: absolute;
   top: 0;
@@ -92,9 +132,20 @@
   bottom: 0;
   transform: translate(10px, 10px); }
 
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #dd2b49 !important; }
+
+.owl-theme .owl-dots span {
+  border: 2px solid #dd2d4b;
+  background: none !important; }
+
 @media only screen and (max-width: 992px) {
   .home-inner {
     padding-top: 83px !important; } }
+
+@media only screen and (max-width: 768px) {
+  #home .carousel-indicators {
+    margin-bottom: 0px !important; } }
 
 @media only screen and (max-width: 576px) {
   .display-1 {
