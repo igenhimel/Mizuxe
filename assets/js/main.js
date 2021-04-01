@@ -19,6 +19,8 @@ $(document).ready(function () {
       autoplaySpeed:600,
       autoplay:false,
       loop:true,
+      autoplayHoverPause:true,
+      autoplayTimeout:6000,
       responsive:{
          1200:{
             items:4
